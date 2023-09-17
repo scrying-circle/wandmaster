@@ -4,7 +4,6 @@ const client = new Discord.Client();
 const display = require('./display.js');
 const parse = require('./parse.js');
 
-const assets = asset.getAssets("data");
 const get_spell_list = parse.getSpellList("data/gun_actions.lua");
 let spell_list = {};
 get_spell_list.then(data => {
@@ -398,8 +397,7 @@ client.on('message', message => {
 		let spells = parse.displayArguments(message, spell_list, spell_names);
 		display.send(message, spells, spell_list);
 	} else if (message.content.startsWith('.test')) {
-		let content = message.content.slice(6);
-		message.channel.send(eval(content));
+		message.channel.send("https://github.com/scrying-circle/wandmaster/blob/main/discordbot.js");
 	}
 })
-client.login('');
+client.login('NjQ5Nzg0OTI5ODg2MTQyNTA0.G6h5ox._CdGj6vUYEL4doK47074oj4C98XoYk-XyrMV-k');
