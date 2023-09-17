@@ -402,4 +402,4 @@ client.on('message', message => {
 		message.channel.send(eval(content));
 	}
 })
-client.login('NjQ5Nzg0OTI5ODg2MTQyNTA0.XeHCYw.z2xCaGmSgdcGobZP3e4EGK2GZbw');
+client.login('');
