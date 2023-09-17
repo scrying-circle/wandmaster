@@ -400,4 +400,4 @@ client.on('message', message => {
 		message.channel.send("https://github.com/scrying-circle/wandmaster/blob/main/discordbot.js");
 	}
 })
-client.login('NjQ5Nzg0OTI5ODg2MTQyNTA0.G6h5ox._CdGj6vUYEL4doK47074oj4C98XoYk-XyrMV-k');
+client.login('');
